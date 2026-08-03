@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#173620">
+<title>MLTC Handicap</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="app-header">
+  <span class="eyebrow">Maidenhead LTC</span>
+  <h1>Handicap Calculator</h1>
+</header>
+
+<main>
+  <section class="card">
+    <p class="status">Step 1 build ✅ — this is the empty shell. Handicap logic gets wired in next.</p>
+
+    <div class="player-row">
+      <label for="p1">Player 1 handicap</label>
+      <select id="p1">
+        <option value="">Scratch</option>
+      </select>
+    </div>
+
+    <div class="player-row">
+      <label for="p2">Player 2 handicap</label>
+      <select id="p2">
+        <option value="">Scratch</option>
+      </select>
+    </div>
+
+    <button id="calc-btn" class="primary-btn">Calculate</button>
+
+    <div id="result" class="result" hidden></div>
+  </section>
+
+  <p class="install-hint" id="install-hint" hidden>
+    📲 Tap <strong>Share → Add to Home Screen</strong> (iPhone) or use the install icon in your address bar (Android/Chrome) to install this as an app.
+  </p>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
