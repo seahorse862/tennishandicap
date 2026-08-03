@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mltc-handicap-v1';
+const CACHE_NAME = 'mltc-handicap-v3';
 const FILES_TO_CACHE = [
   './',
   './index.html',
@@ -7,7 +7,8 @@ const FILES_TO_CACHE = [
   './rules.js',
   './manifest.json',
   './icons/icon-192.png',
-  './icons/icon-512.png'
+  './icons/icon-512.png',
+  './icons/mltc-logo-header.png'
 ];
 
 self.addEventListener('install', (event) => {

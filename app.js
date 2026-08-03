@@ -55,7 +55,7 @@ document.getElementById('calc-btn').addEventListener('click', () => {
 
     tbEl.hidden = false;
     const sign = (n) => (n > 0 ? `+${n}` : `${n}`);
-    tbEl.textContent = `Tie-break starts at ${sign(tb.points1)} to ${sign(tb.points2)}`;
+    tbEl.innerHTML = `Tie-break starts at ${sign(tb.points1)} to ${sign(tb.points2)}<span class="tb-note">played to 7, win by 2</span>`;
   } catch (err) {
     resultEl.hidden = false;
     tbEl.hidden = true;
