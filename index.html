@@ -30,21 +30,18 @@
 
     <div class="player-row">
       <label for="p1">Player 1 handicap</label>
-      <select id="p1">
-        <option value="">Scratch</option>
-      </select>
+      <select id="p1"></select>
     </div>
 
     <div class="player-row">
       <label for="p2">Player 2 handicap</label>
-      <select id="p2">
-        <option value="">Scratch</option>
-      </select>
+      <select id="p2"></select>
     </div>
 
     <button id="calc-btn" class="primary-btn">Calculate</button>
 
     <div id="result" class="result" hidden></div>
+    <div id="tiebreak-result" class="tiebreak" hidden></div>
   </section>
 
   <p class="install-hint" id="install-hint" hidden>
@@ -52,6 +49,7 @@
   </p>
 </main>
 
+<script src="rules.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
