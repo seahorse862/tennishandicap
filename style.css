@@ -191,6 +191,13 @@ main{
   border-bottom-color: var(--ball);
 }
 
+.version{
+  margin-top: 8px;
+  font-size: 11px;
+  color: #7fa082;
+  letter-spacing: 0.04em;
+}
+
 .tb-note{
   display: block;
   font-size: 11px;

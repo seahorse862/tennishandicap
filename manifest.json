@@ -1,7 +1,7 @@
 {
-  "name": "MLTC Handicap Calculator",
-  "short_name": "Handicap",
-  "description": "Maidenhead LTC handicap scoring calculator",
+  "name": "MLTC DASH Handicap Calculator",
+  "short_name": "DASH Handicap",
+  "description": "Maidenhead LTC DASH handicap scoring calculator",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
